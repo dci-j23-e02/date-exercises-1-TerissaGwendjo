@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -8,6 +9,7 @@ public class BirthdayReminder {
         suze.set(2000,10,21);
         Date SuzeBirthDate = suze.getTime();
         System.out.println("Suze: " + SuzeBirthDate);
+
 
         Calendar karl = Calendar.getInstance();
         karl.set(1993,8,7);

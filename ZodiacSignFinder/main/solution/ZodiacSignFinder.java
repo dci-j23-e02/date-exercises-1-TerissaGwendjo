@@ -46,13 +46,13 @@ public class ZodiacSignFinder {
 
     //Use the getZodiacSign() method to determine the zodiac signs of Suze, Karl, and Kaiser.
 
-        String suzeZodiacSign = getZodiacSign(suzeBirthdate);
+     /*   String suzeZodiacSign = getZodiacSign(suzeBirthdate);
         String karlZodiacSign = getZodiacSign(karlBirthdate);
         String kaiserZodiacSign = getZodiacSign(kaiserBirthdate);
 
         System.out.println("Kaiser's zodiac sign is " + kaiserZodiacSign);
         System.out.println("Suze's zodiac sign is " + suzeZodiacSign);
         System.out.println("Karl's zodiac sign is " + karlZodiacSign);
-
+*/
 
     }

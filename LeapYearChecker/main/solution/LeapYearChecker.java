@@ -8,7 +8,7 @@ public class LeapYearChecker {
         int karlBirthYear = 1993;
         int kaiserBirthYear = 1855;
 
-        //Check if the years are leap years Use the isLeap()
+        //Check if the years are leap years Use the isLeap() Using Year.isLeap() is a static method:
         boolean isSuzeBirthYearLeap = Year.isLeap(suzeBirthYear);
         boolean isKarlBirthYearLeap = Year.isLeap(karlBirthYear);
         boolean isKaiserBirthYearLeap = Year.isLeap(kaiserBirthYear);

@@ -5,6 +5,9 @@ public class BirthdayCountdown {
     public static void main(String[]args){
 
         //Define birthdates of Suze, Karl and Kaiser:
+        // Accessing the private constructor: If a constructor is declared private, we can't create an object of the class,
+        //except within the class. A private constructor is used when we want to limit the way objects of a class are instantiated
+        //LocalDate with of(): is to create an instance of the LocalDate class
         LocalDate suzeBirthdate = LocalDate.of(2000, 11, 21);
         LocalDate karlBirthdate = LocalDate.of(1993, 9, 7);
         LocalDate kaiserBirthdate = LocalDate.of(1855, 9, 7);
