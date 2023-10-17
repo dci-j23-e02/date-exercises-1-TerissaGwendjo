@@ -28,6 +28,8 @@ public class BirthdayCountdown1 {
         }
 
         //returns number of days between current day and next birthday
+        //ChronoUnit.DAYS.between: is a method that works same as Period.between,
+        // however it does return the total number of days between both variables
         return ChronoUnit.DAYS.between(currentDate, nextBirthday);
     }
 
